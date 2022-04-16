@@ -2,3 +2,10 @@ https://docs.spacexdata.com/#d65a7f85-e0c7-41ce-b41d-9ad20a238d90
 
 Componentes react tailwin
 https://www.creative-tim.com/learning-lab/tailwind-starter-kit/documentation/css/navbars
+
+
+Comandos docker
+-----------------
+docker build --tag spacex-app .
+push google registry: docker push gcr.io/soy-smile-343813/spacex-app:v0.1
+cambiar tag de la imagen:  docker tag spacex-app gcr.io/soy-smile-343813/spacex-app:v0.1
